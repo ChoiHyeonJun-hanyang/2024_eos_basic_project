@@ -166,8 +166,7 @@ class _HomeScreenState extends State<HomeScreen> {
           TextButton(onPressed: () {
               Navigator.of(context).pop();
           },
-              child: Text('취소',
-                style: TextStyle(color: Colors.black),
+              child: Text('취소', style: TextStyle(color: Colors.black),
               ),
           ),
           TextButton(onPressed: () {
@@ -178,8 +177,7 @@ class _HomeScreenState extends State<HomeScreen> {
               });
               Navigator.of(context).pop();
             }
-          }, child: Text('추가',
-              style: TextStyle(color: Colors.black),
+          }, child: Text('추가', style: TextStyle(color: Colors.black),
           )),
         ],
       );
