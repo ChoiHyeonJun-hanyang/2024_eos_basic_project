@@ -1,4 +1,5 @@
 import 'package:eos_todolist/screens/home_screen.dart';
+import 'package:eos_todolist/screens/setting_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Pretendard',
         useMaterial3: true,
       ),
-      home: HomeScreen(),
+      home: HomeScreen()//HomeScreen(),
     );
   }
 }
